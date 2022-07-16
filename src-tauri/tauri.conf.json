@@ -53,13 +53,15 @@
     "updater": {
       "active": false
     },
+    "macOSPrivateApi": true,
     "windows": [
       {
-        "fullscreen": false,
+        "title": "Oh My Box",
         "height": 600,
+        "width": 800,
+        "fullscreen": true,
         "resizable": true,
-        "title": "Tauri App",
-        "width": 800
+        "transparent": true
       }
     ]
   }
